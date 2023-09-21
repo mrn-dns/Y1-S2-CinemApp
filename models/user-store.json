@@ -1,0 +1,84 @@
+{
+  "users": [
+    {
+      "firstName": "Denis",
+      "lastName": "Marincas",
+      "email": "homer@simpson.com",
+      "password": "Secret_123",
+      "id": "b0ea2637-d54e-4d6a-8fe3-5fa6b75361cd",
+      "picture": "http://res.cloudinary.com/dbe8fzsls/image/upload/v1650563123/xkexa686sjz08jxqe1as.png"
+    },
+    {
+      "firstName": "Maria",
+      "lastName": "Magdalena",
+      "email": "marge@simpson.com",
+      "password": "Secret_123",
+      "id": "5f547a95-e408-43fa-9a7e-066d7658ebfc",
+      "picture": "http://res.cloudinary.com/dbe8fzsls/image/upload/v1650565973/oeqe6hwhyuferhrdcrko.jpg"
+    },
+    {
+      "firstName": "Denis",
+      "lastName": "Marincas",
+      "email": "marincasdenis@yahoo.com",
+      "password": "Secret_123",
+      "id": "e4b37d61-bd78-45e4-a820-75adf6dc7214",
+      "picture": "http://res.cloudinary.com/dbe8fzsls/image/upload/v1650927270/mhhmjntdk8951fwhw0bf.jpg"
+    },
+    {
+      "firstName": "Dad",
+      "lastName": "Fasd",
+      "email": "awofina@yahoo.com",
+      "password": "Secret_123",
+      "id": "be3f2f88-925f-4ff6-8b35-d03f7f232479",
+      "picture": "http://res.cloudinary.com/dbe8fzsls/image/upload/v1651061540/jftezzvudmzgtpiroxs1.jpg"
+    },
+    {
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "johndoe@gmail.com",
+      "password": "Secret_123",
+      "id": "6c76778d-eb35-4cc8-854c-2794c31b2560",
+      "picture": "http://res.cloudinary.com/dbe8fzsls/image/upload/v1651062745/wosiai7w8cryqmpxtb88.jpg"
+    },
+    {
+      "firstName": "Jane",
+      "lastName": "Doe",
+      "email": "janedoe@gmail.com",
+      "password": "Secret_123",
+      "id": "abb23390-6d30-46db-8599-25b22285fb44",
+      "picture": "http://res.cloudinary.com/dbe8fzsls/image/upload/v1651070506/ryzvcwxhvidik6q0nlrs.jpg"
+    },
+    {
+      "firstName": "Jojo",
+      "lastName": "Juju",
+      "email": "jojojuju90@hotmail.com",
+      "password": "Secret_123",
+      "id": "3a4dae87-1566-4c72-a0c6-2878b17c505e",
+      "picture": "http://res.cloudinary.com/dbe8fzsls/image/upload/v1651081416/ksbeglb4lf1cniu1xrci.png"
+    },
+    {
+      "firstName": "Test",
+      "lastName": "Tester",
+      "email": "test@gmail.com",
+      "password": "Secret_123",
+      "id": "4a098a48-6274-4e06-bf0f-a5ff8efae42f",
+      "picture": "http://res.cloudinary.com/dbe8fzsls/image/upload/v1651143403/oj72xpgdva7rr0veqowb.png"
+    },
+    {
+      "firstName": "Brenda",
+      "lastName": "Mullally",
+      "email": "bm@wit.ie",
+      "password": "Secret1",
+      "id": "9473f4ca-b922-48e3-8ac4-24288a952b90",
+      "picture": "http://res.cloudinary.com/dbe8fzsls/image/upload/v1651573829/iguyhaa8qmzxknoa2edz.jpg"
+    },
+    {
+      "firstName": "Denis",
+      "lastName": "Aaa",
+      "email": "aa@yahoo.com",
+      "password": "Aaa1234",
+      "id": "55446d2f-0162-471e-926b-be3fb324b7c6",
+      "picture": "http://res.cloudinary.com/dbe8fzsls/image/upload/v1668162912/mvaip0bewuxxwk4vgvg1.png"
+    }
+  ]
+}

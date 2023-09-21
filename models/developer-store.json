@@ -1,0 +1,25 @@
+{"developers":
+  [
+    {
+      "fullname":"Steven Spielberg",
+      "year": "December 18, 1946",
+      "description": "One of the most influential personalities in the history of cinema, Steven Spielberg is Hollywood's best known director and one of the wealthiest filmmakers in the world. He has an extraordinary number of commercially successful and critically acclaimed credits to his name, either as a director, producer or writer since launching the summer blockbuster with Jaws (1975), and he has done more to define popular film-making since the mid-1970s than anyone else.",
+      "image":"https://thumbs.dreamstime.com/b/steven-spielberg-attends-screening-bfg-annual-th-cannes-film-festival-palais-des-festivals-may-cannes-83670357.jpg",
+      "oscars":3
+    },
+    {
+      "fullname":"Martin Scorsese",
+      "year":"November 17, 1942",
+      "description": "Martin Charles Scorsese was born on November 17, 1942 in Queens, New York City, to Catherine Scorsese (née Cappa) and Charles Scorsese, who both worked in Manhattan's garment district, and whose families both came from Palermo, Sicily. He was raised in the neighborhood of Little Italy, which later provided the inspiration for several of his films. Scorsese earned a B.S. degree in film communications in 1964, followed by an M.A. in the same field in 1966 at New York University's School of Film. During this time, he made numerous prize-winning short films including The Big Shave (1967), and directed his first feature film, Who's That Knocking at My Door (1967).",
+      "image":"https://th.bing.com/th/id/R.8053d124ac8ad6ec69f54a335ff16529?rik=WMt%2fGoGFoGPWBA&pid=ImgRaw&r=0",
+      "oscars":1
+    },
+    {
+      "fullname":"Francis Ford Coppola",
+      "year": "April 7, 1939",
+      "description": "Francis Ford Coppola was born in 1939 in Detroit, Michigan, but grew up in a New York suburb in a creative, supportive Italian-American family. His father, Carmine Coppola, was a composer and musician. His mother, Italia Coppola (née Pennino), had been an actress. Francis Ford Coppola graduated with a degree in drama from Hofstra University, and did graduate work at UCLA in filmmaking. He was training as assistant with filmmaker Roger Corman, working in such capacities as sound-man, dialogue director, associate producer and, eventually, director of Dementia 13 (1963), Coppola's first feature film.",
+      "image":"https://th.bing.com/th/id/R.5c51a2e00baeffe92c765c2f5f4a7e7b?rik=6LbBbESoo2rnnw&pid=ImgRaw&r=0",
+      "oscars":5
+    }
+  ]
+}

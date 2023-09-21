@@ -1,0 +1,100 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-image: linear-gradient(#E5FCC2, #9DE0AD, #45ADA8, #547980, #594F4F);
+  background-attachment:fixed;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+#readmore {
+  display: none;
+}
+
+#welcomeuser {
+  display: none;
+}
+
+<!---.ui.segment,.ui.menu {
+  background-color:#83AF9B;
+}--->
+
+.ui.stacked.segment {
+  background-image: linear-gradient(#E5FCC2, #9DE0AD, #45ADA8, #547980, #594F4F);
+}
+
+.desc {
+  text-align: center;
+  font-style: italic;
+  color: #373fff;
+}
+
+.name{
+  padding-top:20px;
+  padding-right:5px;
+  line-height:20px;
+  font-weight:bold;
+  text-transform:capitalize;
+}
+
+.profilepic{
+  padding-top:15px;
+  padding-right:5px;
+  line-height:20px;
+  font-weight:bold;
+}
+
+#compic {
+  height: 35px;
+  width: 35px;
+}
+
+.bordered {
+  border: solid;
+  padding: 10px;
+  margin: 5px 30px 5px 5px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}

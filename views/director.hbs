@@ -1,0 +1,13 @@
+{{> menu id="director"}}
+
+<section class="ui center aligned middle aligned segment">
+  <h2 class="ui header">
+    Top 3 Movie Directors: 
+  </h2>
+
+  <div class="ui centered cards">
+    {{#each developers}}
+      {{> card}}
+    {{/each}}
+  </div>
+</section>

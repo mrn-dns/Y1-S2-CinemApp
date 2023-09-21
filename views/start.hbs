@@ -1,0 +1,145 @@
+{{> menu}}
+
+<section class="ui one column grid segment">
+  <div class="ui sixteen wide column">
+    <h2 class="ui header">
+      Welcome to the CinemApp, {{fullname}}!
+    </h2>
+     
+        <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <img src="https://cdn.glitch.global/247b6fbf-eb0a-4b4d-bcfc-19e57fa32c69/img1.jfif?v=1651074358903" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="https://cdn.glitch.global/247b6fbf-eb0a-4b4d-bcfc-19e57fa32c69/img2.jfif?v=1651074373068" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="https://cdn.glitch.global/247b6fbf-eb0a-4b4d-bcfc-19e57fa32c69/img3.jfif?v=1651074438412" style="width:100%">
+      </div>
+      
+      <div class="mySlides fade">
+        <img src="https://cdn.glitch.global/247b6fbf-eb0a-4b4d-bcfc-19e57fa32c69/img4.jfif?v=1651074439895" style="width:100%">
+      </div>
+      
+      <div class="mySlides fade">
+        <img src="https://cdn.glitch.global/247b6fbf-eb0a-4b4d-bcfc-19e57fa32c69/img5.jpg?v=1651082079337" style="width:100%">
+      </div>
+      
+      <div class="mySlides fade">
+        <img src="https://cdn.glitch.global/247b6fbf-eb0a-4b4d-bcfc-19e57fa32c69/img7.png?v=1651082005983" style="width:100%">
+      </div>
+      
+      <div class="mySlides fade">
+        <img src="https://cdn.glitch.global/247b6fbf-eb0a-4b4d-bcfc-19e57fa32c69/img8.jpg?v=1651082004412" style="width:100%">
+      </div>
+      
+    </div>
+    <br>
+    
+    <div class="ui divider"></div>
+  
+  <h3 class="ui center aligned header">Your CinemApp Statistics:</h3>
+  <div class="ui five statistics">
+    
+    <div class="ui tiny statistic">
+        <div class="value">
+          <i class="green archive icon"></i>
+        </div>
+        <div class="label">
+            {{userTotalPlaylists}} Playlists
+        </div>
+    </div>
+    
+    <div class="ui tiny statistic">
+        <div class="value">
+            <i class="blue film icon"></i>
+        </div>
+        <div class="label">
+            {{userTotalMovies}} Movies
+        </div>
+    </div>
+    
+    <div class="ui tiny statistic">
+        <div class="value">
+            <i class="blue film icon"></i>
+        </div>
+        <div class="label">
+            {{userAvgMovies}} Movies
+        </div>
+    </div>
+    
+    <div class="bordered">
+      <div class="ui tiny statistic">
+        <div class="label">
+            Largest Collection <p style="color:red">{{userBiggestPlaylist}}</p> 
+        </div>
+      </div>
+    </div>
+    
+    <div class="bordered">
+      <div class="ui tiny statistic">
+        <div class="label">
+            Smallest Collection <p style="color:blue">{{userSmallestPlaylist}}</p>
+        </div>
+      </div>
+    </div>
+    
+    
+  </div>
+    
+  <h3 class="ui center aligned header">Global CinemApp Statistics:</h3>
+  <div class="ui five statistics">
+    
+    <div class="ui tiny statistic">
+        <div class="value">
+          <i class="green archive icon"></i>
+        </div>
+        <div class="label">
+            {{totalPlaylists}} Playlists
+        </div>
+    </div>
+    
+    <div class="ui tiny statistic">
+        <div class="value">
+            <i class="blue film icon"></i>
+        </div>
+        <div class="label">
+            {{totalMovies}} Movies
+        </div>
+    </div>
+    
+    <div class="ui tiny statistic">
+        <div class="value">
+            <i class="blue film icon"></i>
+        </div>
+        <div class="label">
+            {{avgMovies}} Movies
+        </div>
+    </div>
+    
+    <div class="bordered">
+      <div class="ui tiny statistic">
+        <div class="label">
+            Largest Collection <p style="color:red">{{biggestPlaylist}}</p> 
+        </div>
+      </div>
+    </div>
+    
+    <div class="bordered">
+      <div class="ui tiny statistic">
+        <div class="label">
+            Smallest Collection <p style="color:blue">{{smallestPlaylist}}</p>
+        </div>
+      </div>
+    </div>
+    
+    
+  </div>
+  
+</div>
+</section>
