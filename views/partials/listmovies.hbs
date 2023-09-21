@@ -1,0 +1,64 @@
+{{#unless playlist.movies}}
+  <h3 class="ui center aligned message">It's very quiet in here... start adding some movies!</h3>
+{{/unless}}
+{{#if playlist.movies}}
+<table class="ui fixed striped table">
+  <thead>
+    <tr>
+      <th class="four wide">Movie</th>
+      <th class="four wide">Director</th>
+      <th class="three wide">Genre</th>
+      <th class="three wide">Duration</th>
+      <th class="one wide"> </th>
+      <th class="one wide"> </th>
+    </tr>
+  </thead>
+<tbody>
+    {{#each playlist.movies}}
+    <form class = "ui stacked segment form" action="/playlist/{{../playlist.id}}/updatemovie/{{id}}" method="POST">
+    <tr class="fields">
+      <td class="field">
+        <span class="ui input">
+         <input type="text" name="title" autofocus required title = "Please include a valid Title" placeholder="Title" value = "{{capitalise title}}">
+        </span>
+      </td>
+      <td class="field">
+        <span class="ui input">
+          <input type="text" name="director" required title = "Please include a valid Director" placeholder="Director" value = "{{capitalise director}}">
+        </span>
+      </td>
+      <td class="field">
+         <span class="ui input">
+          <select name="genre" id="genre" style="padding:.6em 2.5em; border:solid lightgray 1px;border-radius:5px;">
+            <option value="{{genre}}" selected="selected">{{genre}}</option>
+            {{{populate genre}}}       
+			    </select>       
+          </span>
+        </td>
+      <td class="field">
+        <span class="ui input">
+          <input type="text" name="duration" required title = "Please enter a valid duration" placeholder="Duration" value = "{{duration}}">
+        </span>
+      </td>
+      <td class="center aligned">
+        <button class="ui submit icon button"><i class="ui pencil alternate icon"></i></button>
+      </td>
+      <td class="center aligned">
+        <a href="/playlist/{{../playlist.id}}/deletemovie/{{id}}" class="ui icon button delmovie">
+          <i class="ui trash icon"></i>
+        </a>
+      </td>
+    </tr>
+    </form> 
+    {{/each}}
+  </tbody>
+</table>
+
+<p>
+  <span id="rating"> </span>
+</p>
+
+<button class="ui blue button" id="rateit">
+  Rate it! <i class="star icon"></i>
+</button>
+{{/if}}

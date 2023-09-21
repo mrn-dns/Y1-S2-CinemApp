@@ -1,0 +1,32 @@
+{{> welcomemenu id="signup"}}
+
+<form class="ui stacked segment form" action="/register" method="POST" enctype="multipart/form-data">
+  <h3 class="ui header">Register</h3>
+  <div class="two fields">
+    <div class="field">
+      <label for="firstName">First Name</label>
+      <input placeholder="First Name" type="text"  name="firstName" autofocus required pattern = "[A-Z][a-z]+( [A-Z][a-z]+)?"
+             title="Please enter your first name (second name optional) with First Letter capitalised">
+    </div>
+    <div class="field">
+      <label for="lastName">Last Name</label>
+      <input placeholder="Last Name" type="text"  name="lastName" required pattern = "[A-Z][a-z]+( [A-Z][a-z]+)?"
+             title="Please enter your last name (second nlast name optional) with First Letter capitalised">
+    </div>
+  </div>
+  <div class="field">
+    <label for="email">Email</label>
+    <input placeholder="Email" type="text" name="email" required pattern = "^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$"
+     title="Please enter a valid email">
+  </div>
+  <div class="field">
+    <label for="password">Password</label>
+    <input type="password" name="password" required pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).{6,}$"
+       title = "Please enter a valid Password which is at least 6 characters in length and includes at least one capital letter and at least one digit">
+  </div>
+  <div class="field">
+      <label>Image</label>
+      <input placeholder="Image" type="file" name="picture" required>
+  </div>
+  <button class="ui blue submit button">Submit</button>
+</form>

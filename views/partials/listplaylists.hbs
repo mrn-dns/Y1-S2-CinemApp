@@ -1,0 +1,28 @@
+{{#unless playlists}}
+  <h3 class="ui center aligned message">It's very quiet in here... start adding some playlists!</h3>
+{{/unless}}
+{{#if playlists}}
+<div class="ui centered cards">
+  {{#each playlists}}
+    <div class="ui card">
+      <div class="image">
+        <img src="{{picture}}">
+      </div>
+      <div class="content">
+        <a class="header">{{uppercase title}}</a>
+        <div class="metadata">
+          <span class="date">Created: {{formatDate date}}</span>
+        </div>
+      </div>
+      <div class="extra content">
+        <a href="/playlist/{{id}}" class="ui icon button">
+          <i class="icon folder open"></i>
+        </a>
+        <a href="/dashboard/deleteplaylist/{{id}}" class="ui icon button">
+          <i class="icon trash"></i>
+        </a>
+      </div>
+    </div>
+  {{/each}}
+</div>
+{{/if}}

@@ -1,0 +1,21 @@
+{{#unless comments}}
+  <h3 class="ui center aligned message">It's very quiet in here... start adding some comments!</h3>
+{{/unless}}
+{{#if comments}}
+  {{#each comments}}
+    <div class="ui comments">
+      <div class="comment">
+        <a class="avatar"><img src="{{picture}}" class="ui tiny image" id="compic" ></a>
+        <div class="content">
+          <a class="author">{{fullName}}</a>
+          <div class="metadata">
+            <div class="date">{{formatDate date}}</div>
+          </div>
+          <div class="text">
+            {{message}}
+          </div>
+        </div>
+      </div>
+    </div>
+  {{/each}}
+{{/if}}
